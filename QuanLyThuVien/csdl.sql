@@ -14,7 +14,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Dumping data for table quanlythuvien.sach: ~20 rows (approximately)
+-- Dumping data for table quanlythuvien.sach: ~21 rows (approximately)
 REPLACE INTO `sach` (`maSach`, `tenSach`, `tacGia`, `theLoai`, `tinhTrang`) VALUES
 	(1, 'Mao chủ tịch ngữ lục', 'Mao Trạch Đông', 'Sách', 0),
 	(2, 'Don Quixote', 'Miguel de Cervantes', 'Truyện giả tưởng', 0),
@@ -37,12 +37,13 @@ REPLACE INTO `sach` (`maSach`, `tenSach`, `tacGia`, `theLoai`, `tinhTrang`) VALU
 	(20, 'Tôi thấy hoa vàng trên cỏ xanh', 'Phạm Quốc Huy', 'Truyện', 0),
 	(23, 'A', 'B', 'B', 0);
 
--- Dumping data for table quanlythuvien.taikhoan: ~4 rows (approximately)
+-- Dumping data for table quanlythuvien.taikhoan: ~2 rows (approximately)
 REPLACE INTO `taikhoan` (`tenTaiKhoan`, `matKhau`) VALUES
 	('a', '123'),
 	('admin', 'admin'),
 	('b', '123'),
-	('huy', '123');
+	('huy', '123'),
+	('test', '123');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
